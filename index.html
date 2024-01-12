@@ -8,18 +8,102 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body>
   <div id="navbar">
     <div id="navbar-left">
-      <img src="profile.jpg" alt="avatar" class="avatar">
+      <img src="images/profile.jpg" alt="avatar" class="avatar">
       <h3>ILYA OBRETETSKIY</h3>
     </div>
     <div id="navbar-right">
-      <h4>HOME</h4>
-      <h4>ABOUT</h4>
-      <h4>PROJECTS</h4>
-      <h4>CONTACT</h4>
+      <a href="#hero"><h4>HOME</h4></a>
+      <a href="#about"><h4>ABOUT</h4></a>
+      <a href="#projects"><h4>PROJECTS</h4></a>
+    </div>
+  </div>
+  <div id="hero">
+    <div id="hero-links">
+      <a href="https://www.linkedin.com/in/ilya-obretetskiy-b5010b1b5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/obreil54" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://stackoverflow.com/users/23088683/obreil54" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+      <a href="mailto: obreil54@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <div id="hero-content">
+      <h1>HI, MY NAME IS ILYA</h1>
+      <h2>As a Full-Stack Developer, I blend creativity and technology to solve real-world challenges, transforming ideas into user-centric digital solutions.</h2>
+      <a href="#projects"><h3 class="button">PROJECTS</h3></a>
+    </div>
+    <div id="hero-animation">
+      <lottie-player src="https://lottie.host/05226698-2b69-4d32-a212-178b4a2e45f2/JGWTfll5ZO.json" speed="1" style="width: 65px; height: 65px" loop autoplay direction="1" mode="normal"></lottie-player>
+    </div>
+  </div>
+  <div class="section" id="about">
+    <h2><strong>ABOUT ME</strong></h2>
+    <hr class="rounded">
+    <div id="about-content">
+      <div id="summary">
+        <h3>SUMMARY</h3>
+        <p>I am a <strong>Full-Stack Web Developer</strong> with a background in Public Relations and Public Affairs. I have recently graduated the Le Wagon Web Development bootcamp and I am looking forward to applying my newly acquired skill set in a professional setting.</p>
+        <p>Primarily I am interested in <strong>Back-End Development</strong> of <strong>Web Applications</strong>, with a particular affinity for Ruby on Rails. This preference is reflected in my work, which you can explore in the <strong>Projects </strong>section. My portfolio showcases my ability to transform complex ideas into functional and impactful web solutions.</p>
+        <p>I am currently seeking <strong>Full-Time and Freelance </strong>opportunities where I can apply my skills, embrace new learning experiences, and contribute to meaningful projects. If my skill set and experience align with your needs, please feel free to reach out to me on <a href="https://www.linkedin.com/in/ilya-obretetskiy-b5010b1b5/"><strong>LinkedIn</strong></a> or via email at: <strong>obreil54@gmail.com</strong>. I am excited about the possibility of collaborating and growing with your team.</p>
+      </div>
+      <div id="skills">
+        <h3>MY SKILLS</h3>
+        <p>HTML</p>
+        <p>CSS/SCSS</p>
+        <p>Bootstrap</p>
+        <p>JavaScript</p>
+        <p>Ruby on Rails</p>
+        <p>OOP</p>
+        <p>Capybara</p>
+        <p>Selenium</p>
+        <p>Python</p>
+        <p>SQL</p>
+        <p>PostgreSQL</p>
+        <p>Devise</p>
+        <p>Redis</p>
+        <p>GIT</p>
+        <p>GitHub</p>
+        <p>Sidekiq</p>
+        <p>Heroku</p>
+        <p>Figma</p>
+        <p>Linux</p>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="projects">
+    <h2><strong>PROJECTS</strong></h2>
+    <hr class="rounded">
+    <div class="project">
+      <img src="images/Cheddar.png" alt="Cheddar Mock-Up">
+      <div>
+        <h3>Cheddar (Ongoing)</h3>
+        <p>A streamlined job application solution that lets users apply to multiple positions effortlessly with just one click. Designed for efficiency and ease, this automated system aims to revolutionise the job-application process.</p>
+        <a href="cheddar.html"><h4 class="button">MORE INFO</h4></a>
+      </div>
+    </div>
+    <div class="project">
+      <img src="images/Rentr.png" alt="Rentr Mock-Up">
+      <div>
+        <h3>Rentr</h3>
+        <p>Peer-to-Peer car rental platform, where users can both rent and list vehicles with ease. This convenient service bridges the gap between car owners and renters, offering a simple, user-friendly solution for car rental needs.</p>
+        <a href="rentr.html"><h4 class="button">MORE INFO</h4></a>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footer-info">
+      <h2><strong>ILYA OBRETETSKIY</strong></h2>
+      <p>A Full-Stack Developer, blending creativity and technology to solve real-world challenges, transforming ideas into user-centric digital solutions.</p>
+    </div>
+    <div class="footer-section">
+      <h2><strong>SOCIAL</strong></h2>
+      <a href="https://www.linkedin.com/in/ilya-obretetskiy-b5010b1b5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/obreil54" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://stackoverflow.com/users/23088683/obreil54" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+      <a href="mailto: obreil54@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
     </div>
   </div>
 </body>
