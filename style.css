@@ -83,13 +83,18 @@ body {
   align-items: center;
   padding: 8px;
   background-color: white;
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0px;
 }
 
 #hero-animation {
   position: absolute;
   bottom: 16px;
   left: 50%;
-  right: 50%;
+  transform: translateX(-50%);
 }
 
 
