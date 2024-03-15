@@ -309,7 +309,7 @@ hr.rounded {
   }
 
   #navbar {
-    padding: 8px 20px;
+    padding: 8px 15px;
   }
 
   #navbar-left img {
@@ -326,8 +326,9 @@ hr.rounded {
   }
 
   #navbar-right {
-    text-align: center;
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #navbar-right h4 {
