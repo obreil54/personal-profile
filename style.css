@@ -312,13 +312,17 @@ hr.rounded {
     padding: 8px 20px;
   }
 
+  #navbar-left img {
+    display: none;
+  }
+
   #navbar-left {
     flex: 1;
     text-align: center;
   }
 
   #navbar-left  h3{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   #navbar-right {
@@ -328,7 +332,7 @@ hr.rounded {
 
   #navbar-right h4 {
     padding: 0 12px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   #hero-content h1, #hero-content h3 {
