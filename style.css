@@ -112,15 +112,29 @@ body {
 }
 
 h2 {
-  font-weight: normal;
+  font-weight: normal !important;
+  font-size: 24px;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 48px !important;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18.72px;
+  font-weight: bold;
+  margin: 18.72px 0;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 21.28px 0;
 }
 
 i {
-  font-size: 2rem;
+  font-size: 32px !important;
   padding: 8px;
   color: black;
   border-radius: 5px;
@@ -145,9 +159,9 @@ hr.rounded {
   justify-content: center;
   align-items: center;
   padding: 120px 160px;
-  font-size: 1.2rem;
+  font-size: 19.2px !important;
   background: linear-gradient(white, #e7e7e7);
-  }
+}
 
 .project-section {
   display: flex;
@@ -155,7 +169,7 @@ hr.rounded {
   justify-content: center;
   align-items: center;
   padding: 80px 280px;
-  font-size: 1.2rem;
+  font-size: 19.2px !important;
   background-color: white;
 }
 
@@ -233,7 +247,7 @@ hr.rounded {
 .project-links {
   display: flex;
   justify-content: flex-start;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .project-links .button {
@@ -259,10 +273,29 @@ hr.rounded {
   transform: translateY(-3px);
 }
 
+#carouselExampleIndicators {
+  width: 100%;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  margin-bottom: 32px;
+}
+
+.carousel-item {
+  height: 350px;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  height: 350px;
+}
+
+.carousel-indicators .active {
+  background-color: #22405c;
+}
+
 @media (max-width: 768px) {
   .section {
     padding: 60px 30px;
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   #about-content {
@@ -305,7 +338,7 @@ hr.rounded {
 
   .section {
     padding: 40px 20px;
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   #navbar {
@@ -322,7 +355,7 @@ hr.rounded {
   }
 
   #navbar-left  h3{
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
   }
 
   #navbar-right {
@@ -333,11 +366,15 @@ hr.rounded {
 
   #navbar-right h4 {
     padding: 0 12px;
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
   }
 
-  #hero-content h1, #hero-content h3 {
-    font-size: 2rem;
+  #hero-content h1 {
+    font-size: 2rem !important;
+  }
+
+  #hero-content h3 {
+    font-size: 1.5rem;
   }
 
   #hero-links {
@@ -353,7 +390,7 @@ hr.rounded {
   }
 
   #footer h2, #footer p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .project-section {
@@ -390,5 +427,18 @@ hr.rounded {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  .carousel-item {
+    height: 225px;
+    object-fit: cover;
+  }
+
+  .carousel-item img {
+    height: 225px;
+  }
+
+  .carousel-indicators .active {
+    background-color: #22405c;
   }
 }
