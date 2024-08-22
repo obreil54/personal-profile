@@ -287,6 +287,21 @@ hr.rounded {
   height: 350px;
 }
 
+.phone {
+  height: 500px;
+  width: 40% !important;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.phone-inner {
+  height: 500px;
+}
+
+.phone img{
+  height: 500px;
+}
+
 .carousel-indicators .active {
   background-color: #22405c;
 }
@@ -442,6 +457,21 @@ hr.rounded {
 
   .carousel-item img {
     height: 175px;
+  }
+
+  .phone {
+    height: 250px;
+    object-fit: cover;
+    width: 45% !important;
+    margin: 0 auto;
+  }
+
+  .phone-inner {
+    height: 250px;
+  }
+
+  .phone img{
+    height: 250px;
   }
 
   .carousel-indicators .active {
