@@ -280,26 +280,26 @@ hr.rounded {
 }
 
 .carousel-item {
-  height: 350px;
+  height: 440px;
 }
 
 .carousel-item img {
-  height: 350px;
+  height: 440px;
 }
 
 .phone {
-  height: 500px;
-  width: 40% !important;
+  height: 525px;
+  width: 38% !important;
   object-fit: cover;
   margin: 0 auto;
 }
 
 .phone-inner {
-  height: 500px;
+  height: 525px;
 }
 
 .phone img{
-  height: 500px;
+  height: 525px;
 }
 
 .carousel-indicators .active {
@@ -460,18 +460,18 @@ hr.rounded {
   }
 
   .phone {
-    height: 250px;
+    height: 325px;
     object-fit: cover;
-    width: 45% !important;
+    width: 60% !important;
     margin: 0 auto;
   }
 
   .phone-inner {
-    height: 250px;
+    height: 325px;
   }
 
   .phone img{
-    height: 250px;
+    height: 325px;
   }
 
   .carousel-indicators .active {
