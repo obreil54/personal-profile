@@ -29,6 +29,9 @@ I'm continuously seeking new opportunities and challenges where I can apply my e
 
 - **Description**: A streamlined job application solution that lets users apply to multiple positions effortlessly with just one click. Designed for efficiency and ease, this automated system aims to revolutionise the job-application process.
 - **Technologies Used**: Ruby on Rails, Hotwire/Stimulus, JavaScript, Capybara, Selenium, Devise, Redis, Sidekiq, HTML, CSS/SCSS, Bootstrap, PostgreSQL, Heroku
+- **GitHub Repo**: (https://github.com/Ches-ctrl/Cheddar))
+- **Live Website**: [Cheddar.jobs](https://www.cheddar.jobs)
+
 
 ### [Personal Website Portfolio]
 - **Description**: A personal portfolio showcasing my professional experience and development projects.
