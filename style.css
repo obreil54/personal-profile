@@ -274,32 +274,33 @@ hr.rounded {
 }
 
 #carouselExampleIndicators {
-  width: 100%;
+  width: 900px;
   box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  margin: 0 auto;
   margin-bottom: 32px;
 }
 
 .carousel-item {
-  height: 440px;
+  height: 506px;
 }
 
 .carousel-item img {
-  height: 440px;
+  height: 506px;
 }
 
 .phone {
-  height: 525px;
-  width: 38% !important;
+  height: 600px;
+  width: 350px !important;
   object-fit: cover;
   margin: 0 auto;
 }
 
 .phone-inner {
-  height: 525px;
+  height: 600px;
 }
 
 .phone img{
-  height: 525px;
+  height: 600px;
 }
 
 .carousel-indicators .active {
@@ -451,12 +452,16 @@ hr.rounded {
     text-align: center;
   }
 
+  #carouselExampleIndicators {
+    width: 320px;
+  }
+
   .carousel-item {
-    height: 175px;
+    height: 180px;
   }
 
   .carousel-item img {
-    height: 175px;
+    height: 180px;
   }
 
   .phone {
