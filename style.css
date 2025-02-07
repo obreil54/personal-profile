@@ -104,7 +104,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 8px;
-  background-color: white;
   position: absolute;
   position: absolute;
   top: 50%;
@@ -123,6 +122,9 @@ body {
   transform: translateX(-50%);
 }
 
+ul {
+  padding-left: 20px;
+}
 
 .button {
   border-radius: 5px;
@@ -474,7 +476,7 @@ hr.rounded {
   }
 
   .project-tech-icons img{
-    height: 30px;
+    height: 40px;
   }
 
   .project-links {
