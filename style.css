@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: white;
-  background-color: #d30001;
+  background-color: #a61104;
   padding: 8px 48px;
   position: sticky;
   top: 0;
@@ -90,7 +90,7 @@ body {
 }
 
 #hero-content h1 {
-  color: #d30001;
+  color: #a61104;
 }
 
 #hero-content h1, #hero-content h2{
@@ -112,7 +112,7 @@ body {
 }
 
 #hero-links i {
-  color: #d30001;
+  color: #a61104;
 }
 
 #hero-animation {
@@ -128,9 +128,9 @@ ul {
 
 .button {
   border-radius: 5px;
-  box-shadow: 0px 4px 8px rgba(211, 0, 1, 0.3);
+  box-shadow: 0px 4px 8px rgba(166, 17, 4, 0.3);
   padding: 16px 80px;
-  background-color: #d30001;
+  background-color: #a61104;
   color: white;
   transition: .3s;
 }
@@ -170,15 +170,15 @@ i {
 }
 
 #hero i:hover {
-  background-color: rgba(211, 0, 1, 0.2);
+  background: rgba(200, 50, 50, 0.05);
 }
 
 hr.rounded {
   border-radius: 5px;
   width: 30px;
   height: 5px;
-  border: 1px solid #d30001;
-  background-color: #d30001;
+  border: 1px solid #a61104;
+  background-color: #a61104;
 }
 
 .section {
@@ -188,7 +188,7 @@ hr.rounded {
   align-items: center;
   padding: 120px 160px;
   font-size: 19.2px !important;
-  background: linear-gradient(white, #fffafa);
+  background: linear-gradient(white, #fdf9f9);
 }
 
 .project-section {
@@ -216,7 +216,7 @@ hr.rounded {
 }
 
 #skills p, #tools p {
-  background-color: #d30001;
+  background-color: #a61104;
   padding: 8px 16px;
   border-radius: 5px;
   display: inline-block;
@@ -226,11 +226,11 @@ hr.rounded {
 
 }
 #summary a {
-  color: #d30001;
+  color: #a61104;
 }
 
 #footer {
-  background-color: #d30001;
+  background-color: #a61104;
   color: white;
   display: flex;
   align-items: center;
@@ -292,15 +292,15 @@ hr.rounded {
 .project-links .button {
   padding: 16px 48px;
   margin-right: 16px;
-  border: 2px solid #d30001;
+  border: 2px solid #a61104;
 }
 
 .button-secondary {
   padding: 16px 48px;
-  color: #d30001;
+  color: #a61104;
   border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
-  border: 2px solid #d30001;
+  box-shadow: 0px 4px 8px rgba(166, 17, 4, 0.3);
+  border: 2px solid #a61104;
   transition: .3s;
 }
 
@@ -314,7 +314,7 @@ hr.rounded {
 
 #carouselExampleIndicators {
   width: 900px;
-  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  box-shadow: 0px 4px 8px rgba(166, 17, 4, 0.3);
   margin: 0 auto;
   margin-bottom: 32px;
 }
@@ -343,7 +343,7 @@ hr.rounded {
 }
 
 .carousel-indicators .active {
-  background-color: #d30001;
+  background-color: #a61104;
 }
 
 .carousel-control-prev-icon {
