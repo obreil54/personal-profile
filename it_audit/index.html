@@ -27,7 +27,14 @@
   <div id="hero">
     <div id="hero-content">
       <h1>IT AUDIT</h1>
-      <h2>A centralised IT audit platform for tracking the condition of equipment loaned to employees. The application features multiple authentication options, streamlined data management, and customisable reporting tools, improving both user experience and administrative workflows.</h2>
+      <h2>Built with Ruby on Rails, Stimulus.js, PostgreSQL, and Rails Admin, this centralized IT auditing platform manages and audits IT equipment across an organization. Includes dual authentication, questionnaire-based audits, and file management integration. Used by 100+ employees.</h2>
+      <div id="hero-tech-icons">
+        <img src="../images/ruby-icon.png" alt="Ruby Logo">
+        <img src="../images/rails-icon.png" alt="Rails Logo">
+        <img src="../images/stimulus-icon.png" alt="Stimulus.js Logo">
+        <img src="../images/javascript-icon.png" alt="JavaScript Logo">
+        <img src="../images/postgre-icon.png" alt="PostgreSQL Logo">
+      </div>
       <a href="https://github.com/obreil54/Magnat-Questionnaire" target="_blank"><h3 class="button">GITHUB LINK</h3></a>
     </div>
   </div>
@@ -35,11 +42,11 @@
     <img src="../images/it_audit.png" alt="IT Audit Mock-Up">
     <div class="project-summary">
       <h3>Project Overview</h3>
-      <p>The IT Audit platform is a comprehensive solution useed to manage and audit IT equipment across a client's organisation. Designed for both administrators and employees, the platform supports the creation of multiple waves of customized questionnaires tailored to specific equipment types, such as laptops.</p>
-      <p>Users can complete these questionnaires, which include text inputs, select boxes, and photo uploads, ensuring a thorough assessment of the equipment’s condition. The photos are seamlessly integrated with the client’s file management system using Active Record.</p>
-      <p>The application offers two authentication options based on user roles: admins use a traditional login-password method, while general users access the system through a passwordless code sent to their email. This approach balances security and convenience across different user groups.</p>
-      <p>Built in Ruby on Rails with the use of gems such as Rails Admin. The platform allows for easy XLSX data imports and exports as well as custom Rails Admin actions for generating reports, significantly improving administrative efficiency.</p>
-      <p>Currently live within the company, the application is set to be used by over a hundred employees. Throughout its development, I worked closely with the client, continuously refining the product based on their feedback.</p>
+      <p>Built with Ruby on Rails, Stimulus.js, Rails Admin, and Active Storage, this IT auditing tool streamlines the tracking and assessment of IT equipment across a logistics company. It features dual authentication—admins log in traditionally, while employees use a passwordless email code for seamless access.</p>
+      <p>The platform automates scheduled equipment audits by sending customized questionnaires tailored to different equipment types. These questionnaires support text inputs, select boxes, and photo uploads, ensuring detailed assessments. Submitted photos are managed via Active Storage and seamlessly integrated with the client's external file management system.</p>
+      <p>To enhance administrative efficiency, the system supports bulk XLSX imports and exports and includes custom reporting tools within Rails Admin. This reduces manual data entry and improves audit accuracy. Automated audit scheduling ensures regular equipment condition updates, minimizing follow-ups.</p>
+      <p>During development, I strengthened my skills in authentication strategies, building a dual-login mechanism from scratch. I also gained hands-on experience handling file uploads and API integrations. Working closely with the client's IT department, I ensured the system met their operational needs.</p>
+      <p>Now live and actively used by 100+ employees, this platform replaces manual tracking with a scalable and automated auditing solution, improving equipment accountability and operational efficiency.</p>
       <br>
       <div id="carouselExampleIndicators" class="carousel slide phone" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -81,12 +88,15 @@
       </div>
       <h3>Tools Used</h3>
       <div id="tools">
-        <p>HTML</p>
-        <p>CSS/SCSS</p>
-        <p>JavaScript</p>
-        <p>Hotwire/Stimulus</p>
         <p>Ruby on Rails</p>
+        <p>Stimulus (Hotwire)</p>
+        <p>JavaScript</p>
+        <p>Rails Admin</p>
         <p>PostgreSQL</p>
+        <p>Sass</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Gitlab</p>
       </div>
       <br>
       <div class="project-links">
