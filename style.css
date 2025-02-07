@@ -39,12 +39,12 @@ body {
 }
 
 #navbar h3{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #navbar-right h4 {
   padding: 0 24px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .avatar {
@@ -194,7 +194,7 @@ hr.rounded {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 280px;
+  padding: 80px 160px;
   font-size: 19.2px !important;
   background-color: white;
 }
