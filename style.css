@@ -186,7 +186,7 @@ hr.rounded {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 160px;
+  padding: 40px 160px;
   font-size: 19.2px !important;
   background: linear-gradient(white, #fdf9f9);
 }
@@ -196,7 +196,7 @@ hr.rounded {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 160px;
+  padding: 40px 160px;
   font-size: 19.2px !important;
   background-color: white;
 }
@@ -234,7 +234,7 @@ hr.rounded {
   color: white;
   display: flex;
   align-items: center;
-  padding: 60px 160px;
+  padding: 40px 160px;
   justify-content: space-between;
 }
 
@@ -439,11 +439,11 @@ hr.rounded {
   }
 
   #hero-content h1 {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
 
   #hero-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   #hero-links {
